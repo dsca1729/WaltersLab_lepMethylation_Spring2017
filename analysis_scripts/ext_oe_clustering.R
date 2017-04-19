@@ -3,17 +3,6 @@ fileNames <- list.files()
 
 library(mclust)
 
-#========================Functions=============================================
-getData <- function(x)
-{
-  outList <- list(NULL)
-  i = 1
-  while(i < length(x))
-  {
-    outList[[i]] <- read.delim(file=x[i], sep='\t', as.is = TRUE)
-    i <- i + 1
-  }
-}
 #generate and plot individual density clusters
 fit_and_plot <- function(x)
 {
@@ -44,4 +33,6 @@ dataList <- lapply(dataList, na.omit)
 
 
 #generating density clusters
+pdf("histograms.pdf")
 lapply(dataList, fit_and_plot)
+dev.off()
