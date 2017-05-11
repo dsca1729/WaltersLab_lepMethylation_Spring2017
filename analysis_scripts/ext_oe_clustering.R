@@ -1,14 +1,25 @@
 #Script assumes working directory (wd) is contains the entirety of data-sets of interest
 fileNames <- list.files()
 
+#orgNames <- c("A_Transitella", "B_Anynana1", "B_Anynana2", "Bombyx_Mori1", "Bombyx_Mori ASM", "C._Cecrops", "C._Supressalis", "D_Plexippus1", "D. Plexippus3", "H. Erato", "H. Melpomene1", "H. Melpomene2", "L. Accius", "M. Sexta", "M. Cinxia", "O. Brumata", "P. Glaucus", "P. Machaon", "P. Polytes", "P. Xuthus Pap", "P. Xuthus Pxut", "P. Sennae", "P. Interpunctella", "P. Xylostella") 
+
 library(mclust)
 
 #generate and plot individual density clusters
 fit_and_plot <- function(x)
 {
-  z <- densityMclust(x$CpGOE, G=1:2)
+  #z <- densityMclust(x$CpGOE, G=1:2)
   plot.dens(clus = z)
 }
+
+filter_geneLength <- function(x)
+{
+  x <- subset(x, x$gene_length >= 200)
+}
+
+
+
+
 
 #Density Plotting Function
 plot.dens <- function(clus, ...) {
@@ -29,10 +40,14 @@ plot.dens <- function(clus, ...) {
 
 #read in all files for usage.
 dataList <- lapply(fileNames, read.delim)
+names(dataList) <- fileNames
 dataList <- lapply(dataList, na.omit)
+dataList <- lapply(dataList, filter_geneLength)
 
 
 #generating density clusters
-pdf("histograms.pdf")
-lapply(dataList, fit_and_plot)
-dev.off()
+#pdf("histograms_kawahara.pdf")
+clustData <- lapply(dataList, fit_and_plot)
+#dev.off()
+
+
