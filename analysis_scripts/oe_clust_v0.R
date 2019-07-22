@@ -42,7 +42,7 @@ gen_density_data <- function (dataList) {
     dens_x <- densityMclust(x$CpGOE, G=1:2) 
     density_data <- append(density_data, list(dens_x))
   }
-  names(density_data) <- gen_dens_names()
+  names(density_data) <- names(dataList) #gen_dens_names()
   return(density_data)
 }
 
@@ -73,16 +73,17 @@ variance_table <- function (dataList, ...) {
 }
 
 
-gen_plots <- function(dataList, file.title, ...) {
-  names <- gen_dens_names()
+gen_plots <- function(dataList, file.title, plot.title, ...) {
+  names <- names(dataList)
   command.pdf <- gen_pdf_command(file.title)
   eval(parse(text=command.pdf))
   for(i in 1:length(dataList)) {
-    command.plots <- gen_plot_command(dataList, names, i)
+    command.plots <- gen_plot_command(dataList, names, plot.title, i)
     eval(parse(text=command.plots))
   }
   dev.off()
 }
+
 plot.dens <- function(clus, title, ...) {
   oe.range <- range(clus$data)
   oe.x <- seq(from = oe.range[1], to = oe.range[2], length.out = 500)
@@ -117,9 +118,9 @@ gen_dens_names <- function()
   return(nameVec)
 }
 
-gen_plot_command <- function(dataList,nameVec,index, ...) {
+gen_plot_command <- function(dataList,nameVec, titleVec, index, ...) {
   com.name <- paste0("$'", nameVec[index], "'")
-  com.call <- paste0("plot.dens(dataList", com.name,", '", nameVec[index], "'", ")")
+  com.call <- paste0("plot.dens(dataList", com.name,", '", titleVec[index], "'", ")")
   return(com.call)
 }
 
