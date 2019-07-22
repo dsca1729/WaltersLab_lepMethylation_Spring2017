@@ -1,0 +1,25 @@
+"var1"	"var2"
+"dclus_Amyelois_transitella_v1_-_cds.fa.out.txt"	0.0289132634475493	NA
+"dclus_Bicyclus_anynana_nBa.0.1_-_cds.fa.out.txt"	0.081206789681393	0.0258249577794583
+"dclus_Bicyclus_anynana_v1.2_-_cds.fa.out.txt"	0.0871099305680123	0.0250282850910615
+"dclus_Bombyx_mori_-_cds.fa.out.txt"	0.0920628117750224	0.0184434198092775
+"dclus_Bombyx_mori_ASM15162v1_-_cds.fa.out.txt"	0.0810775917393691	0.0159302701278988
+"dclus_Calycopis_cecrops_v1.1_-_cds.fa.out.txt"	0.0750003100671408	0.017313430625004
+"dclus_Chilo_suppressalis_CsuOGS1.0_-_cds.fa.out.txt"	0.022309000889833	0.039561612356979
+"dclus_Danaus_plexippus_-_cds.fa.out.txt"	0.0713958686389144	0.0149712222269672
+"dclus_Danaus_plexippus_v3_-_cds.fa.out.txt"	0.0650210468312769	0.0133944001243709
+"dclus_Heliconius_erato_v1_-_cds.fa.out.txt"	0.0773735819465241	0.0209186769109123
+"dclus_Heliconius_melpomene_-_cds.fa.out.txt"	0.0357019285511641	NA
+"dclus_Heliconius_melpomene_Hmel2_-_cds.fa.out.txt"	0.0798392282508024	0.0212460689918374
+"dclus_Lerema_accius_v1.1_-_cds.fa.out.txt"	0.0833892222479683	0.025458559732144
+"dclus_Manduca_sexta_Msex_1.0_-_cds.fa.out.txt"	0.0805148546766291	0.020571417533353
+"dclus_Melitaea_cinxia_-_cds.fa.out.txt"	0.0845141518840428	0.0224627638494079
+"dclus_Operophtera_brumata_v1_-_cds.fa.out.txt"	0.0555616319188618	0.027180593546953
+"dclus_Papilio_glaucus_v1.1_-_cds.fa.out.txt"	0.0867447793838558	0.0169179581354711
+"dclus_Papilio_machaon_Pap_ma_1.0_-_cds.fa.out.txt"	0.0793411269874639	0.0157863609388033
+"dclus_Papilio_polytes_Ppol_1.0_-_cds.fa.out.txt"	0.0732447932687378	0.0140427650596014
+"dclus_Papilio_xuthus_Pap_xu_1.0_-_cds.fa.out.txt"	0.082421292213583	0.0153208040842458
+"dclus_Papilio_xuthus_Pxut_1.0_-_cds.fa.out.txt"	0.0702650654193393	0.0146874367482185
+"dclus_Phoebis_sennae_v1.1_-_cds.fa.out.txt"	0.0843436583811071	0.0225895736069179
+"dclus_Plodia_interpunctella_v1_-_cds.fa.out.txt"	0.0862408685164335	0.0231954702925677
+"dclus_Plutella_xylostella_DBM_FJ_v1.1_-_cds.fa.out.txt"	0.0567425376012837	0.0150511461924717

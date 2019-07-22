@@ -1,0 +1,25 @@
+"mean1"	"mean2"
+"dclus_Amyelois_transitella_v1_-_cds.fa.out.txt"	0.505412986268171	0.935198459012324
+"dclus_Bicyclus_anynana_nBa.0.1_-_cds.fa.out.txt"	0.8294088298635	0.986225782946522
+"dclus_Bicyclus_anynana_v1.2_-_cds.fa.out.txt"	0.9002282469198	0.991402834574604
+"dclus_Bombyx_mori_-_cds.fa.out.txt"	0.890109318487729	1.06385551087863
+"dclus_Bombyx_mori_ASM15162v1_-_cds.fa.out.txt"	0.847752364343261	1.06843950055514
+"dclus_Calycopis_cecrops_v1.1_-_cds.fa.out.txt"	0.797097482611373	1.02697011256576
+"dclus_Chilo_suppressalis_CsuOGS1.0_-_cds.fa.out.txt"	0.440714703339602	0.939530368784302
+"dclus_Danaus_plexippus_-_cds.fa.out.txt"	0.871726961245169	0.94536238121959
+"dclus_Danaus_plexippus_v3_-_cds.fa.out.txt"	0.864357712738038	0.959197342495977
+"dclus_Heliconius_erato_v1_-_cds.fa.out.txt"	0.791184683543926	1.00546775462258
+"dclus_Heliconius_melpomene_-_cds.fa.out.txt"	0.528687529339763	0.956366936323938
+"dclus_Heliconius_melpomene_Hmel2_-_cds.fa.out.txt"	0.798428540512025	0.986843585983589
+"dclus_Lerema_accius_v1.1_-_cds.fa.out.txt"	0.896712622815083	0.980189860076654
+"dclus_Manduca_sexta_Msex_1.0_-_cds.fa.out.txt"	0.83402512898271	1.04352482350774
+"dclus_Melitaea_cinxia_-_cds.fa.out.txt"	0.939678597430097	1.00920907262267
+"dclus_Operophtera_brumata_v1_-_cds.fa.out.txt"	0.84800677333602	0.977364391660073
+"dclus_Papilio_glaucus_v1.1_-_cds.fa.out.txt"	0.853513230228354	1.07380060971049
+"dclus_Papilio_machaon_Pap_ma_1.0_-_cds.fa.out.txt"	0.876491281887324	1.04897388887872
+"dclus_Papilio_polytes_Ppol_1.0_-_cds.fa.out.txt"	0.829619479862028	1.05227765692281
+"dclus_Papilio_xuthus_Pap_xu_1.0_-_cds.fa.out.txt"	0.884202595566329	1.05266944806877
+"dclus_Papilio_xuthus_Pxut_1.0_-_cds.fa.out.txt"	0.783316410470586	1.03961163022059
+"dclus_Phoebis_sennae_v1.1_-_cds.fa.out.txt"	0.826639493931473	1.00571090549902
+"dclus_Plodia_interpunctella_v1_-_cds.fa.out.txt"	0.843027987401207	0.955370001851742
+"dclus_Plutella_xylostella_DBM_FJ_v1.1_-_cds.fa.out.txt"	0.775489994755499	0.977124163966069
